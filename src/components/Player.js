@@ -23,8 +23,8 @@ function Player({ currentSong, isPlaying, setIsPlaying }) {
 
   // Set state for current song time and duration
   const [songInfo, setSongInfo] = useState({
-    currentTime: null,
-    duration: null,
+    currentTime: 0,
+    duration: 0,
   });
 
   // Update state for current song time and duration
@@ -41,6 +41,7 @@ function Player({ currentSong, isPlaying, setIsPlaying }) {
     );
   };
 
+  // Update slider with song time and allow time to change by dragging slider
   const dragHandler = (e) => {
     audioRef.current.currentTime = e.target.value;
     setSongInfo({ ...songInfo, currentTime: e.target.value });
