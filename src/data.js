@@ -92,6 +92,56 @@ function chillHop() {
       color: ["#174E4B", "#D67252"],
       active: false,
     },
+    {
+      id: uuidv4(),
+      name: "Foggy Road",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/07/5c3cb92a68f953925c92d259d8d7b52d3bd9aa06-1024x1024.jpg",
+      artist: "Toonorth",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=7834",
+      color: ["#3BA46C", "#EF764B"],
+      active: false,
+    },
+    {
+      id: uuidv4(),
+      name: "Deeper",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/10/23fdd99adc3e16abcb67b004ea3e748ebf433a49-1024x1024.jpg",
+      artist: "Aviino",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=10460",
+      color: ["#CE5FAC", "#5B9CDE"],
+      active: false,
+    },
+    {
+      id: uuidv4(),
+      name: "Seascape",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/11/f78c39b4bb6313ddd0354bef896c591bfb490ff8-1024x1024.jpg",
+      artist: "Makzo",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=11773",
+      color: ["#4F64A3", "#D4877F"],
+      active: false,
+    },
+    {
+      id: uuidv4(),
+      name: "Vitamin D",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2021/07/3b73a510169f14c4af83ac4016e809917412702b-1024x1024.jpg",
+      artist: "fantompower",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=22790",
+      color: ["#DBE7E3", "#D2AED4"],
+      active: false,
+    },
+    {
+      id: uuidv4(),
+      name: "After Hours",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2022/10/36fcc61f2d1c707e99f36706700d73229e2e8dff-1024x1024.jpg",
+      artist: "Poldoore",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=36942",
+      color: ["#C79500", "#2B426C"],
+      active: false,
+    },
   ];
 }
 
