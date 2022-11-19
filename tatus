@@ -1,0 +1,213 @@
+[33mcommit 087b644ba12bdf2f4f109e10178a05f75b81ce9a[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Sat Nov 19 12:34:27 2022 -0500
+
+    Styled slider to show gradient of colors from song data and hid slider thumb
+
+[33mcommit 36d3c31e35541e8ba3aa3024401bf619a21b2b9a[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Sat Nov 19 12:19:09 2022 -0500
+
+    Removed styles from player slider and added div to slider to animate a new color as the song plays
+
+[33mcommit 73a959c0f3157de432fdb511041e32e33fc0f744[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Sat Nov 19 11:15:52 2022 -0500
+
+    Corrected error of song duration showing NaaN when changing song using ternary operator to check if it has loaded and displaying 0:00 if it hasn't
+
+[33mcommit 01f878883d6d26e443645b344526c0aa943e4233[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Sat Nov 19 11:12:34 2022 -0500
+
+    Imported playAudio function from util to correct error of audio not auto playing when skipping back or forward
+
+[33mcommit 7c6d1841a9eb6298c3ab13025053766ac1d668f3[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Sat Nov 19 11:11:31 2022 -0500
+
+    Created new file to hold function for checking if song is playing and waiting for audio to load so it can be imported to multiple components
+
+[33mcommit 4c7b9ae62ce581c553446e7619de89132a57bebd[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Sat Nov 19 10:54:22 2022 -0500
+
+    Updated library UI to highlight current song when skipping back or forward
+
+[33mcommit a01ef4eb44faec4f0ee3092e84378872d79d8f8b[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Sat Nov 19 10:42:09 2022 -0500
+
+    Added function to skip track back or forward
+
+[33mcommit dc2550f36a7a8b63a042927e722fe6f9a6743628[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Sat Nov 19 10:41:39 2022 -0500
+
+    Added props to library component
+
+[33mcommit 43162eef2d68c32b07f3a5746a948c28447bd960[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Sat Nov 19 10:16:00 2022 -0500
+
+    Arranged songs in data.js in new order
+
+[33mcommit 04deb0674a72745599f4ea51a463f9a2ce767993[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Fri Nov 18 19:48:27 2022 -0500
+
+    Added functionality to library button to add active class and reveal hidden library when clicked
+
+[33mcommit 239030b5d41d95ded18b31d675da43c7ab0d41d2[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Fri Nov 18 19:37:54 2022 -0500
+
+    Hid library and added nav with button to reveal
+
+[33mcommit 7ab3abcbc8bfb7c4f8522a9b5e78c85d83d12cf4[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Fri Nov 18 19:37:21 2022 -0500
+
+    Created sass file for nav
+
+[33mcommit f980b332958616c207384b1bb2375853b9a4b7aa[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Fri Nov 18 19:36:50 2022 -0500
+
+    Created Nav component
+
+[33mcommit f2a5885135dadc601ee74d478d12d2d8b9bca3ab[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Fri Nov 18 19:24:29 2022 -0500
+
+    Set song duration on player to display 0 if duration has not loaded
+
+[33mcommit c7b5942793a0d6b725eb383fe2e5c215ee4013da[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Fri Nov 18 19:18:14 2022 -0500
+
+    Added highlight to currently selected song and to change active state to true or false based on playing song
+
+[33mcommit 8e940313e72f83358ec343451149dd675c66c2e1[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Fri Nov 18 19:17:21 2022 -0500
+
+    Added props to Library
+
+[33mcommit 1b81b0fdcd549c8a6285bb30be534924617fb9b5[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Fri Nov 18 19:01:21 2022 -0500
+
+    Moved audioRef, songInfo, and timeHandler up to App.js so it can be passed down as props to new components
+
+[33mcommit 743be007aa4a3db0fb233bdb531cc2a1d257ffce[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Fri Nov 18 19:00:40 2022 -0500
+
+    Added promise to wait for song to load so it can auto play if music was already playing and stay paused if paused when changing songs
+
+[33mcommit 0fd6a144e1d98d253259b46eaaaed76c59c75c8b[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Fri Nov 18 18:36:01 2022 -0500
+
+    Allowed songs from library to change current song when clicked on
+
+[33mcommit 7fbad329a1fc807460c9727ae4b038ffe2e56f86[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Fri Nov 18 16:00:46 2022 -0500
+
+    Added open sans font and styled fonts on page
+
+[33mcommit e16c1ef4bc9794d05d81a45fdeab9705bc6d6cca[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Fri Nov 18 15:41:03 2022 -0500
+
+    Styled library to have slider that looks the same on all browsers
+
+[33mcommit 1e42a627b7156e53910c460a1967ca8c9074e6e8[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Fri Nov 18 15:40:17 2022 -0500
+
+    Added more songs to data.js for listening
+
+[33mcommit 032d084ecf39bd1049416a0073058941d2430248[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Fri Nov 18 15:18:56 2022 -0500
+
+    Styled library to display all available songs with cover image, song title, and artist name in a column
+
+[33mcommit b53c7d106fe10bba173c34609c24b2e0038bb788[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Fri Nov 18 15:04:11 2022 -0500
+
+    Connected Library components to app and passed song props
+
+[33mcommit c2e57621dbe34591565bef65ddf0f1025eac3dc7[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Fri Nov 18 14:56:18 2022 -0500
+
+    Created Library and LibrarySong components for displaying all available songs
+
+[33mcommit 965d334d6b948c851172e5ad3608ccec4772fdef[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Fri Nov 18 14:48:06 2022 -0500
+
+    Added pause icon and used ternary operator to check if song is playing and display play or pause button
+
+[33mcommit 8a2a0cab571225652ab3ae005ea5b171076c573c[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Fri Nov 18 14:44:27 2022 -0500
+
+    Fixed error where songInfo state was null and changed it to start at 0
+
+[33mcommit b6c7b5953f6aed553e2f7a96ccb8d7093d889e14[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Fri Nov 18 14:39:41 2022 -0500
+
+    Updated alt for song cover image to show song title
+
+[33mcommit 1dd42f6c70e95e318038635b14d7fbfc27af4b6b[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Fri Nov 18 14:36:12 2022 -0500
+
+    Set slider to update and move with song time, as well as change time when dragging the slider
+
+[33mcommit 3763bdc1cccb5313c60c9a0764824a04774125f1[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Fri Nov 18 14:14:18 2022 -0500
+
+    Set time display to update with state, fixed time formatting for easier reading, and set time to appear on load
+
+[33mcommit 67f575dd3ec17a69bef7c03038661fd423653628[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Fri Nov 18 14:00:35 2022 -0500
+
+    Added state to track song time and update as song plays
+
+[33mcommit 7d65dd95424465fd46f14eda4e980d2c74b4b832[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Thu Nov 17 20:19:52 2022 -0500
+
+    Connected audio to play button and added onClick to play and pause the audio
+
+[33mcommit b6d23b3524d0516d59097a5773293e3036e19bbd[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Thu Nov 17 19:25:40 2022 -0500
+
+    Connected data audio to player component and added useRef for audio element
+
+[33mcommit dc0d4db6cc29c38c5eeea12bbcffa7fc7791d4b9[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Thu Nov 17 19:15:20 2022 -0500
+
+    Imported song data into app and passed down to song component via props to display cover img, song title, and artists name
+
+[33mcommit 1d315fd32da6421436c9f607560568cc871388ae[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Thu Nov 17 18:51:19 2022 -0500
+
+    Created data file containing all song information and audio
+
+[33mcommit 581aea7c9cd617db3315d57ae3b97d72e1e014e6[m
+Author: johnlombardi389 <lombardij38@gmail.com>
+Date:   Thu Nov 17 17:46:26 2022 

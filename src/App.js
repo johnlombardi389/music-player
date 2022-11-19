@@ -40,6 +40,13 @@ function App() {
   // Library toggle state
   const [libraryStatus, setLibraryStatus] = useState(false);
 
+  // Play next song when audio is finished playing
+  const songEndHandler = () => {
+    let currentIndex = songs.findIndex((song) => song.id === currentSong.id);
+    setCurrentSong(songs[(currentIndex + 1) % songs.length]);
+    setIsPlaying(false);
+  };
+
   return (
     <div className="App">
       <Nav libraryStatus={libraryStatus} setLibraryStatus={setLibraryStatus} />
@@ -68,6 +75,7 @@ function App() {
         onLoadedMetadata={timeUpdateHandler}
         ref={audioRef}
         src={currentSong.audio}
+        onEnded={songEndHandler}
       ></audio>
     </div>
   );
