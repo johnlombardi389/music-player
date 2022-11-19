@@ -18,13 +18,23 @@ function App() {
   const [songInfo, setSongInfo] = useState({
     currentTime: 0,
     duration: 0,
+    animationPercentage: 0,
   });
 
   // Update state for current song time and duration
   const timeUpdateHandler = (e) => {
     const current = e.target.currentTime;
     const duration = e.target.duration;
-    setSongInfo({ ...songInfo, currentTime: current, duration: duration });
+    // Calculate percentage
+    const roundedCurrent = Math.round(current);
+    const roundedDuration = Math.round(duration);
+    const animation = Math.round((roundedCurrent / roundedDuration) * 100);
+    setSongInfo({
+      ...songInfo,
+      currentTime: current,
+      duration: duration,
+      animationPercentage: animation,
+    });
   };
 
   // Library toggle state
