@@ -4,13 +4,23 @@ function chillHop() {
   return [
     {
       id: uuidv4(),
+      name: "Vitamin D",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2021/07/3b73a510169f14c4af83ac4016e809917412702b-1024x1024.jpg",
+      artist: "fantompower",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=22790",
+      color: ["#DBE7E3", "#D2AED4"],
+      active: true,
+    },
+    {
+      id: uuidv4(),
       name: "Romance",
       cover:
         "https://chillhop.com/wp-content/uploads/2021/03/75adfe0661d06a9ea66d9c2e99b31e92ae450ebe-1024x1024.jpg",
       artist: "RenBoz",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=16064",
       color: ["#F9B339", "#F54933"],
-      active: true,
+      active: false,
     },
     {
       id: uuidv4(),
@@ -120,16 +130,6 @@ function chillHop() {
       artist: "Makzo",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=11773",
       color: ["#4F64A3", "#D4877F"],
-      active: false,
-    },
-    {
-      id: uuidv4(),
-      name: "Vitamin D",
-      cover:
-        "https://chillhop.com/wp-content/uploads/2021/07/3b73a510169f14c4af83ac4016e809917412702b-1024x1024.jpg",
-      artist: "fantompower",
-      audio: "https://mp3.chillhop.com/serve.php/?mp3=22790",
-      color: ["#DBE7E3", "#D2AED4"],
       active: false,
     },
     {
