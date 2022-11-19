@@ -6,6 +6,7 @@ import {
   faAngleRight,
   faPause,
 } from "@fortawesome/free-solid-svg-icons";
+import { playAudio } from "../util";
 
 function Player({
   currentSong,
@@ -69,10 +70,14 @@ function Player({
     if (direction === "skip-backward") {
       if ((currentIndex - 1) % songs.length === -1) {
         setCurrentSong(songs[songs.length - 1]);
+        // Check if song is playing and wait for audio
+        playAudio(isPlaying, audioRef);
         return;
       }
       setCurrentSong(songs[(currentIndex - 1) % songs.length]);
     }
+    // Check if song is playing and wait for audio
+    playAudio(isPlaying, audioRef);
   };
 
   return (
