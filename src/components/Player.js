@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPlay,
@@ -7,10 +7,14 @@ import {
   faPause,
 } from "@fortawesome/free-solid-svg-icons";
 
-function Player({ currentSong, isPlaying, setIsPlaying }) {
-  // Reference audio
-  const audioRef = useRef(null);
-
+function Player({
+  currentSong,
+  isPlaying,
+  setIsPlaying,
+  audioRef,
+  setSongInfo,
+  songInfo,
+}) {
   // Play and pause song
   const playSongHandler = () => {
     if (isPlaying) {
@@ -20,19 +24,6 @@ function Player({ currentSong, isPlaying, setIsPlaying }) {
       audioRef.current.play();
       setIsPlaying(!isPlaying);
     }
-  };
-
-  // Set state for current song time and duration
-  const [songInfo, setSongInfo] = useState({
-    currentTime: 0,
-    duration: 0,
-  });
-
-  // Update state for current song time and duration
-  const timeUpdateHandler = (e) => {
-    const current = e.target.currentTime;
-    const duration = e.target.duration;
-    setSongInfo({ ...songInfo, currentTime: current, duration: duration });
   };
 
   // Format song time to show minute then : then return to 0 every 60 seconds
@@ -79,12 +70,6 @@ function Player({ currentSong, isPlaying, setIsPlaying }) {
           icon={faAngleRight}
         />
       </div>
-      <audio
-        onTimeUpdate={timeUpdateHandler}
-        onLoadedMetadata={timeUpdateHandler}
-        ref={audioRef}
-        src={currentSong.audio}
-      ></audio>
     </div>
   );
 }
