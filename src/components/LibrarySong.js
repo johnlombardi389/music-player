@@ -1,9 +1,33 @@
 import React from "react";
 
-function LibrarySong({ songs, song, setCurrentSong, id, audioRef, isPlaying }) {
+function LibrarySong({
+  songs,
+  song,
+  setCurrentSong,
+  id,
+  audioRef,
+  isPlaying,
+  setSongs,
+}) {
   const songSelectHandler = () => {
     setCurrentSong(song);
-    audioRef.current.play();
+    // Check and set active state of song
+    const newSongs = songs.map((song) => {
+      if (song.id === id) {
+        return {
+          ...song,
+          active: true,
+        };
+      } else {
+        return {
+          ...song,
+          active: false,
+        };
+      }
+    });
+    setSongs(newSongs);
+
+    // Check if song is playing and wait for audio
     if (isPlaying) {
       const playPromise = audioRef.current.play();
       if (playPromise !== undefined) {
@@ -15,7 +39,10 @@ function LibrarySong({ songs, song, setCurrentSong, id, audioRef, isPlaying }) {
   };
 
   return (
-    <div className="library-song" onClick={songSelectHandler}>
+    <div
+      className={`library-song ${song.active ? "selected" : ""}`}
+      onClick={songSelectHandler}
+    >
       <img src={song.cover} alt={song.name} />
       <div className="song-description">
         <h3>{song.name}</h3>
