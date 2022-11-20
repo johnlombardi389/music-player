@@ -45,6 +45,7 @@ function App() {
     let currentIndex = songs.findIndex((song) => song.id === currentSong.id);
     setCurrentSong(songs[(currentIndex + 1) % songs.length]);
     setIsPlaying(false);
+    audioRef.current.play();
   };
 
   return (
