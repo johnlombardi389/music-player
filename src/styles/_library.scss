@@ -4,13 +4,15 @@
   left: 0;
   width: 20rem;
   height: 100%;
-  box-shadow: 2px 2px 50px rgb(202, 202, 202);
+  box-shadow: 2px 2px 50px black;
   overflow: scroll;
   transform: translateX(-100%);
   transform: all 0.5s ease;
   opacity: 0;
+  background: black;
   h2 {
-    padding: 2rem;
+    padding: 3.25rem;
+    color: white;
   }
 }
 
@@ -24,7 +26,12 @@
     width: 30%;
   }
   &:hover {
-    background: rgb(222, 222, 255);
+    h3 {
+      color: white;
+    }
+    h4 {
+      color: #a7a7a7;
+    }
   }
 }
 
@@ -55,7 +62,13 @@
 }
 
 .selected {
-  background: violet;
+  background: #171717;
+  h3 {
+    color: white;
+  }
+  h4 {
+    color: #a7a7a7;
+  }
 }
 
 .active-library {
