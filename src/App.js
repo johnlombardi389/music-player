@@ -5,6 +5,7 @@ import Song from "./components/Song";
 import Library from "./components/Library";
 import Nav from "./components/Nav";
 import data from "./data";
+import { playAudio } from "./util";
 
 function App() {
   const [songs, setSongs] = useState(data());
@@ -43,9 +44,9 @@ function App() {
   // Play next song when audio is finished playing
   const songEndHandler = async () => {
     let currentIndex = songs.findIndex((song) => song.id === currentSong.id);
-    setCurrentSong(songs[(currentIndex + 1) % songs.length]);
-
-    await audioRef.current.play();
+    await setCurrentSong(songs[(currentIndex + 1) % songs.length]);
+    playAudio(isPlaying, audioRef);
+    return;
   };
 
   return (
