@@ -41,11 +41,11 @@ function App() {
   const [libraryStatus, setLibraryStatus] = useState(false);
 
   // Play next song when audio is finished playing
-  const songEndHandler = () => {
+  const songEndHandler = async () => {
     let currentIndex = songs.findIndex((song) => song.id === currentSong.id);
     setCurrentSong(songs[(currentIndex + 1) % songs.length]);
-    setIsPlaying(false);
-    audioRef.current.play();
+
+    await audioRef.current.play();
   };
 
   return (
