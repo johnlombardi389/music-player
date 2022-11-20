@@ -66,6 +66,7 @@ function LibrarySong({
   return (
     <div
       className={`library-song ${active ? "selected" : ""}`}
+      /*fix active song not changing on autoplay*/
       onClick={songSelectHandler}
     >
       <img src={cover} alt={name} />
