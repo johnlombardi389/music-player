@@ -1,10 +1,14 @@
-<p align="center">
-  <h4 align="center">A music player that lets you play copyright free music on your device.</h4>
-</p>
+# Music Player App
 
-# Tools:
+A music player that lets you play copyright free music on your device.
 
-[![Tools used](https://skillicons.dev/icons?i=react,sass,nodejs,js,css,html,git,figma,visualstudio)](https://skillicons.dev)
+## Tools
+
+[![Tools used](https://skillicons.dev/icons?i=react,sass,nodejs,js,git,figma,visualstudio)](https://skillicons.dev)
+
+## Overview
+
+This music application was built using ReactJS and is designed to be easy to use with a simple UI. Currently it offers a selection of copyright free music from https://chillhop.com/ and allows users to freely select and play songs in the library.
 
 # Getting Started with Create React App
 
