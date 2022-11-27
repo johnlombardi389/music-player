@@ -12,7 +12,7 @@ This music application was built using ReactJS and is designed to be easy to use
 
 ## What I Learned
 
--Implementing useState and useRef hooks for React
--Installing and using different packages for React
--Creating my own data function to store song information
--Using SASS with React and making individual files to style each component
+- Implementing useState and useRef hooks for React
+- Installing and using different packages for React
+- Creating my own data function to store song information
+- Using SASS with React and making individual files to style each component
