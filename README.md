@@ -3,6 +3,7 @@
 </p>
 
 <p align="center">
+  <h2>Tools:</h2>
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=react,sass,nodejs,js,css,html,git,figma,visualstudio" />
   </a>
