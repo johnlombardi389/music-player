@@ -2,12 +2,9 @@
   <h4 align="center">A music player that lets you play copyright free music on your device.</h4>
 </p>
 
-<p align="center">
-  <h2>Tools:</h2>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,sass,nodejs,js,css,html,git,figma,visualstudio" />
-  </a>
-</p>
+# Tools:
+
+[![Tools used](https://skillicons.dev/icons?i=react,sass,nodejs,js,css,html,git,figma,visualstudio)](https://skillicons.dev)
 
 # Getting Started with Create React App
 
