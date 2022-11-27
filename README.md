@@ -1,3 +1,7 @@
+<p align="center">
+  <h4 align="center">An ad-free, lightweight music player that lets you play music from your local library on your mobile device.</h4>
+</p>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
