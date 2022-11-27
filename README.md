@@ -1,5 +1,11 @@
 <p align="center">
-  <h4 align="center">An ad-free, lightweight music player that lets you play music from your local library on your mobile device.</h4>
+  <h4 align="center">A music player that lets you play copyright free music on your device.</h4>
+</p>
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=react,sass,nodejs,js,css,html,git,figma,visualstudio" />
+  </a>
 </p>
 
 # Getting Started with Create React App
