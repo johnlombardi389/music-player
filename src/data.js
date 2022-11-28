@@ -212,6 +212,156 @@ function chillHop() {
       color: ["#5D7985", "#EF9796"],
       active: false,
     },
+    {
+      id: uuidv4(),
+      name: "Changing Winds",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2022/06/312458b974ab45c795d75ec3f0259caa3989103a-1024x1024.jpg",
+      artist: "Knowmadic",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=41654",
+      color: ["#E7CE9C", "#DA888E"],
+      active: false,
+    },
+    {
+      id: uuidv4(),
+      name: "Ultraviolet",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2021/08/af3ce13ad39d38057f00144f8a7c295877ccfec1-1024x1024.jpg",
+      artist: "Smile High, Teddy Roxpin",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=23345",
+      color: ["#A9DBD8", "#286577"],
+      active: false,
+    },
+    {
+      id: uuidv4(),
+      name: "Nectarine",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2022/10/2b9d337d372db542748e2643dc90af62dd3418e2-1024x1024.jpg",
+      artist: "Es-K, Danny James, John Culbreth",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=34242",
+      color: ["#B10400", "#DFD0B3"],
+      active: false,
+    },
+    {
+      id: uuidv4(),
+      name: "Where I Met You",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/07/e2fe86f9be714c7e1e44f789d6d338c4a00c4668-1024x1024.jpg",
+      artist: "Moods",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=7975",
+      color: ["#CE537F", "#E9D14B"],
+      active: false,
+    },
+    {
+      id: uuidv4(),
+      name: "Awakening",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/07/3599aa307a704376e6a680b13bdbdb37d76a83ed-1024x1024.jpg",
+      artist: "j'san",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=7953",
+      color: ["#EC5894", "#55BAB6"],
+      active: false,
+    },
+    {
+      id: uuidv4(),
+      name: "Coda",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2021/02/7f102bdde417f6ead9a120b2b931449e5c12b4da-1024x1024.jpg",
+      artist: "Aarigod",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=13001",
+      color: ["#9BCA3E", "#425037"],
+      active: false,
+    },
+    {
+      id: uuidv4(),
+      name: "Toft",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/07/858b533ba20ff95bf5b401089b195d1a8cb43870-1024x1024.jpg",
+      artist: "Felty, Ezzy",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=9312",
+      color: ["#1971B1", "#F0DA39"],
+      active: false,
+    },
+    {
+      id: uuidv4(),
+      name: "Morning In The Cafe",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/07/9ba130514bcb5697e8a9be6a93fa2c8fc88223d0-1024x1024.jpg",
+      artist: "No Spirit",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=8068",
+      color: ["#8C5A63", "#B3674F"],
+      active: false,
+    },
+    {
+      id: uuidv4(),
+      name: "Under Leaves",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/07/0b2270e2865d7c9fb7ce840263bc6fb93f64f812-1024x1024.jpg",
+      artist: "Mr. Käfer",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=9070",
+      color: ["#289E8E", "#DD7C8F"],
+      active: false,
+    },
+    {
+      id: uuidv4(),
+      name: "Journeys",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/08/63d2d2cdabbc5df023603b5f47b2fb97963cb537-1024x1024.jpg",
+      artist: "Sitting Duck, squeeda",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=8650",
+      color: ["#A79650", "#7E573A"],
+      active: false,
+    },
+    {
+      id: uuidv4(),
+      name: "Sleepover",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/09/09fb436604242df99f84b9f359acb046e40d2e9e-1024x1024.jpg",
+      artist: "Nymano, JK the Sage",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=10130",
+      color: ["#F4A49D", "#6A5F8A"],
+      active: false,
+    },
+    {
+      id: uuidv4(),
+      name: "Paraglider",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/07/4fac6bb3a32f9e76b465990ba8d97d7db8a372f5-1024x1024.jpg",
+      artist: "Kendall Miles, H E R B",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=9318",
+      color: ["#F19447", "#9F6B77"],
+      active: false,
+    },
+    {
+      id: uuidv4(),
+      name: "Passage",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/07/c3811ccd3dd069ebcecf80403921efd1bb690f49-1024x1024.jpg",
+      artist: "L'Indécis",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=8446",
+      color: ["#61D0D7", "#DD0187"],
+      active: false,
+    },
+    {
+      id: uuidv4(),
+      name: "la zona",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2022/10/3ff29a35be582c8dc0222273cb9c401ea6b209dc-1024x1024.jpg",
+      artist: "Maydee",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=27455",
+      color: ["#782B21", "#A37716"],
+      active: false,
+    },
+    {
+      id: uuidv4(),
+      name: "Aqui",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/07/8fe97239f67b9eeb9ff0cc8833a5fdc0d99b3e9f-1024x1024.jpg",
+      artist: "Cloudchord, Soul Food Horns",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=8165",
+      color: ["#9D5060", "#2C2E69"],
+      active: false,
+    },
   ];
 }
 
