@@ -2,6 +2,10 @@
 
 A music player that lets you play copyright free music on your device.
 
+[Listen here](https://johnlombardi389.github.io/pixel-sketch/)
+
+![Screenshot](https://user-images.githubusercontent.com/67701361/204564232-cf834bcd-46be-42ed-a4a7-ad6b05d4f9fa.png)
+
 ## Tools
 
 [![Tools used](https://skillicons.dev/icons?i=react,sass,nodejs,js,git,figma,visualstudio)](https://skillicons.dev)
