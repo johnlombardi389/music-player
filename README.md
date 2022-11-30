@@ -8,7 +8,35 @@ A music player that lets you play copyright free music on your device.
 
 ## Tools
 
-[![Tools used](https://skillicons.dev/icons?i=react,sass,nodejs,js,git,figma,visualstudio)](https://skillicons.dev)
+<p>
+  <a href="https://reactjs.org/">
+    <img src="https://skillicons.dev/icons?i=react" alt="Icon from https://skillicons.dev" />
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+    <img src="https://skillicons.dev/icons?i=js" alt="Icon from https://skillicons.dev" />
+  </a>
+  <a href="https://sass-lang.com/">
+    <img src="https://skillicons.dev/icons?i=sass" alt="Icon from https://skillicons.dev" />
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+    <img src="https://skillicons.dev/icons?i=css" alt="Icon from https://skillicons.dev" />
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML">
+    <img src="https://skillicons.dev/icons?i=html" alt="Icon from https://skillicons.dev" />
+  </a>
+  <a href="https://nodejs.org/en/">
+    <img src="https://skillicons.dev/icons?i=nodejs" alt="Icon from https://skillicons.dev" />
+  </a>
+  <a href="https://git-scm.com/">
+    <img src="https://skillicons.dev/icons?i=git" alt="Icon from https://skillicons.dev" />
+  </a>
+  <a href="https://www.figma.com">
+    <img src="https://skillicons.dev/icons?i=figma" alt="Icon from https://skillicons.dev" />
+  </a>
+  <a href="https://code.visualstudio.com/">
+    <img src="https://skillicons.dev/icons?i=vscode" alt="Icon from https://skillicons.dev" />
+  </a>
+  </p>
 
 ## Overview
 
