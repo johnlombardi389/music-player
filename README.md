@@ -1,50 +1,84 @@
 # Music Player App
 
-A music player that lets you play copyright free music on your device.
+![Screenshot](https://user-images.githubusercontent.com/67701361/211441174-c37c5f97-45d2-44fc-a488-85f31c9b0d53.png)
 
-[Listen here](https://johnlombardi389.github.io/music-player/)
+## Table of contents
 
-![Screenshot](https://user-images.githubusercontent.com/67701361/204564232-cf834bcd-46be-42ed-a4a7-ad6b05d4f9fa.png)
-
-## Tools
-
-<p>
-  <a href="https://reactjs.org/">
-    <img src="https://skillicons.dev/icons?i=react" alt="Icon from https://skillicons.dev" />
-  </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
-    <img src="https://skillicons.dev/icons?i=js" alt="Icon from https://skillicons.dev" />
-  </a>
-  <a href="https://sass-lang.com/">
-    <img src="https://skillicons.dev/icons?i=sass" alt="Icon from https://skillicons.dev" />
-  </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
-    <img src="https://skillicons.dev/icons?i=css" alt="Icon from https://skillicons.dev" />
-  </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML">
-    <img src="https://skillicons.dev/icons?i=html" alt="Icon from https://skillicons.dev" />
-  </a>
-  <a href="https://nodejs.org/en/">
-    <img src="https://skillicons.dev/icons?i=nodejs" alt="Icon from https://skillicons.dev" />
-  </a>
-  <a href="https://git-scm.com/">
-    <img src="https://skillicons.dev/icons?i=git" alt="Icon from https://skillicons.dev" />
-  </a>
-  <a href="https://www.figma.com">
-    <img src="https://skillicons.dev/icons?i=figma" alt="Icon from https://skillicons.dev" />
-  </a>
-  <a href="https://code.visualstudio.com/">
-    <img src="https://skillicons.dev/icons?i=vscode" alt="Icon from https://skillicons.dev" />
-  </a>
-  </p>
+- [Overview](#overview)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Tools](#tools)
+  - [What I learned](#what-i-learned)
+  - [Example Code](#example-code)
+- [Author](#author)
+- [Credits](#credits)
 
 ## Overview
 
-This music application was built using ReactJS and is designed to be easy to use with a simple UI. Currently it offers a selection of copyright free music from https://chillhop.com/ and allows users to freely select and play songs in the library.
+The app allows users to browse and play songs from the library, with the ability to skip forward and back. It features a custom progress bar for each song, with a unique gradient based on the song's cover art. The UI is designed to be clean and intuitive, making it easy for users to find and play their favorite songs. In addition to playing music, the app also displays information about the currently playing song, such as the title and artist. Overall, this music player provides a seamless listening experience for users looking to enjoy copyright-free music from chillhop.com.
 
-## What I Learned
+### Links
+
+- Live Site URL: [Music Player App](https://johnlombardi389.github.io/music-player/)
+
+---
+
+## My process
+
+### Tools
+
+- React
+- JavaScript
+- Sass
+- UUID
+- Git
+
+### What I learned
 
 - Implementing useState and useRef hooks for React
 - Installing and using different packages for React
 - Creating my own data function to store song information
 - Using SASS with React and making individual files to style each component
+
+### Example Code
+
+Getting the current song duration information to update the state:
+
+```javascript
+const [songInfo, setSongInfo] = useState({
+  currentTime: 0,
+  duration: 0,
+  animationPercentage: 0,
+});
+```
+
+```javascript
+const timeUpdateHandler = (e) => {
+  const current = e.target.currentTime;
+  const duration = e.target.duration;
+  // Calculate percentage
+  const roundedCurrent = Math.round(current);
+  const roundedDuration = Math.round(duration);
+  const animation = Math.round((roundedCurrent / roundedDuration) * 100);
+  setSongInfo({
+    ...songInfo,
+    currentTime: current,
+    duration: duration,
+    animationPercentage: animation,
+  });
+};
+```
+
+---
+
+## Author
+
+John Lombardi
+
+- [Portfolio](https://johnlombardi389.github.io/portfolio/)
+- [LinkedIn](https://www.linkedin.com/in/johnlombardi389/)
+- [GitHub](https://github.com/johnlombardi389)
+
+## Credits
+
+- Music from [Chillhop Music](https://chillhop.com/)
