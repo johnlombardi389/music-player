@@ -5,8 +5,7 @@ function chillHop() {
     {
       id: uuidv4(),
       name: "Lunar Cycles",
-      cover:
-        "https://chillhop.com/wp-content/uploads/2020/09/c209a7df7b9bc133dfff73ce86ebc3c57c2b73dd-1024x1024.jpg",
+      cover: "https://f4.bcbits.com/img/a0800658399_16.jpg",
       artist: "Sleepy Fish",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=10031",
       color: ["#41A5BD", "#302C4D"],
@@ -15,8 +14,7 @@ function chillHop() {
     {
       id: uuidv4(),
       name: "Vitamin D",
-      cover:
-        "https://chillhop.com/wp-content/uploads/2021/07/3b73a510169f14c4af83ac4016e809917412702b-1024x1024.jpg",
+      cover: "https://f4.bcbits.com/img/a1974793798_16.jpg",
       artist: "fantompower",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=22790",
       color: ["#DBE7E3", "#D2AED4"],
@@ -25,8 +23,7 @@ function chillHop() {
     {
       id: uuidv4(),
       name: "Romance",
-      cover:
-        "https://chillhop.com/wp-content/uploads/2021/03/75adfe0661d06a9ea66d9c2e99b31e92ae450ebe-1024x1024.jpg",
+      cover: "https://f4.bcbits.com/img/a3395983445_16.jpg",
       artist: "RenBoz",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=16064",
       color: ["#F9B339", "#F54933"],
